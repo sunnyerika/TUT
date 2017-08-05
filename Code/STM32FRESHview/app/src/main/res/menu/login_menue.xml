@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginScreenAsync">
+    <item
+        android:id="@+id/login_menu_show_password_text"
+        android:title="Show password"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/login_menu_show_password"
+        android:icon="@drawable/ic_visibility_off_white_24dp"
+        app:showAsAction="always"
+        android:title="List">
+    </item>
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_red"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/red_string"/>
+        <item
+            android:id="@+id/menu_blue"
+            android:orderInCategory="2"
+            app:showAsAction="never"
+            android:title="@string/blue_string"/>
+        <item
+            android:id="@+id/menu_green"
+            android:orderInCategory="3"
+            app:showAsAction="never"
+            android:title="@string/green_string"/>
+    </group>
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ArticleScreen">
+    <item
+        android:id="@+id/reading_file"
+        android:title="@string/article_file"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/reading_edit"
+        android:title="EDIT"
+        android:visible="false"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/reading_create"
+        android:title="CREATE"
+        app:showAsAction="always"
+        android:visible="false">
+    </item>
+    <item
+        android:id="@+id/reading_feedback"
+        app:showAsAction="always"
+        android:title="@string/article_feedback">
+    </item>
+    <item
+        android:id="@+id/tut"
+        app:showAsAction="always"
+        android:title="@string/tut">
+    </item>
+
+</menu>

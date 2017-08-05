@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RegisterScreen">
+
+    <item
+        android:id="@+id/register_menu_list"
+        android:icon="@drawable/ic_list_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="List">
+    </item>
+    <item
+        android:id="@+id/register_menu_info"
+        android:icon="@drawable/ic_info_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="Info">
+    </item>
+</menu>

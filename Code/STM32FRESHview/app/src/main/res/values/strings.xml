@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">stm32freshview</string>
+    <string name="start_login">Login</string>
+    <string name="start_register">Sign Up</string>
+    <string name="start_reading">Start reading now!</string>
+    <string name="login_username">Username:</string>
+    <string name="login_username_hint">Enter Username!</string>
+    <string name="login_password">Password:</string>
+    <string name="login_password_hint">Enter Password!</string>
+    <string name="login_submit">Submit</string>
+    <string name="login_back">Back</string>
+    <string name="red_string">Red</string>
+    <string name="blue_string">Blue</string>
+    <string name="green_string">Green</string>
+    <string name="tut">TUT</string>
+    <string name="tut_act_title">TUT Activity Title</string>
+    <string name="tut_act_txt">some text</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_create">Create</string>
+
+    <string name="lorum">Lorem ipsum dolor sit amet,
+        consetetur sadipscing elitr,
+        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet,
+        consetetur sadipscing elitr,
+        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet,
+        consetetur sadipscing elitr,
+        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+        vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+        Lorem ipsum dolor sit amet, ipsum dolor sit amet, ipsum dolor sit amet, ipsum dolor sit amet, ipsum dolor sit amet,
+        ipsum dolor sit amet, ipsum dolor sit amet, ipsum dolor sit amet, ipsum dolor sit amet, ipsum dolor sit amet, ipsum dolor sit amet,
+                         </string>
+    <string name="login_password_confirm_hint">Confirm Password!</string>
+    <string name="confim_agb">Accept AGB</string>
+    <string name="register_submit">Submit</string>
+    <string name="show_password">Show Password</string>
+    <string name="hide_password">Hide Password</string>
+    <string name="article_select_controller">Select a controller</string>
+    <string name="controller_f1">STM32F1</string>
+    <string name="controller_f3">STM32F3</string>
+    <string name="controller_f4">STM32F4</string>
+    <string name="article_feedback">Feedback</string>
+    <string name="article_file">File</string>
+    <string name="agb">Ihre Email Adresse wir für die validierung ihrer Daten verwendet.
+        Nach erfolgreicher validierung wir ein Administrator ihren Usernamen und ihr Password elektronisch übermitteln.
+        Es ist verboten Texte mit gewaltverherrlichenden, sexistischem oder verletzendem Inhalt zu veröffentlichen.
+        Weiters wird ein Administrator den erstellten Artikel korrekturlesen und ggf. löschen falls die AGB verletzt werden.
+        Die zur Verfügung gestellten Personen bezogenen Daten dienen ausschließlich der nachvollziehbarkeit eines erstellten Artikels.
+        Wenn Sie den Button aktivieren akzeptieren sie die hier angeführten AGB!</string>
+    <string name="section_article">Article</string>
+    <string name="next_article">Next</string>
+    <string name="lorum_small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</string>
+    <string-array name="micro_controllers">
+        <item>Select Controller</item>
+        <item>STM32F1</item>
+        <item>STM32F3</item>
+        <item>STM32F4</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

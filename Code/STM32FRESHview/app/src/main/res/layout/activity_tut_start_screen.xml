@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.woodamax.stm32freshview.TutStartScreen">
+
+    <TextView
+        android:text="Create Tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Title"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editTitle" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter Text"
+        android:ems="10"
+        android:layout_below="@+id/editTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Enter tut_id"
+        android:ems="10"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editTut_id" />
+
+    <Button
+        android:text="Create"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editTut_id"
+        android:id="@+id/buttonSubmit" />
+    <Button
+        android:text="Show All Records"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/buttonSubmit"
+        android:id="@+id/buttonShow" />
+    <Button
+        android:text="ViewTut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/buttonShow"
+        android:id="@+id/viewTutBttn" />
+
+</RelativeLayout>

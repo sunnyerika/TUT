@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Question1">Die Mikrocontroller STM32Fx der Firma ST verfügen über eine vielzahl von Funktionen welche aus dem Datenblatt entnommen werden können. Welche Funktionalität hat ein Mikrocontroller generell nicht?</string>
+    <string name="Question2">Ein Mikrocontroller verwendet PIN´s um mit der Außenwelt kommunizieren zu können. Dabei kann ein PIN unterschiedliche Zustände annehmen. Welche Aufgabe übernimmt das Output controll Register wenn der Pin im OUTPUT modus ist?</string>
+    <string name="Question3">Die Firma ST stellt unterschiedliche Mikrocontroller für die unterschiedlichsten Anwendungsbereiche her. Dabei lassen sich die unterschiedlichen Modelle durch eine Zahl nach dem F in der Produktkennung unterscheiden. Welche bedeutung hat diese Zahl bei STM32F3K808R8?</string>
+    <string name="Question4">Welche Konfigurationen müssen vorgenommen werden um bei Drücken eines Tasters einen Interupt auszulösen, welcher wiederum eine LED einschaltet (LED-Pin und Taster-Pin sind schon konfiguriert)</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Answer1Q1">CAN</string>
+    <string name="Answer2Q1">SPI</string>
+    <string name="Answer3Q1">ADSL</string><!-- Richtige Antwort 3-->
+    <string name="Answer4Q1">DMA</string>
+    <string name="Answer1Q2">Das Register hat keinen Einfluss</string>
+    <string name="Answer2Q2">Es kann der PIN Status abgefragt werden</string>
+    <string name="Answer3Q2">Wann der Zustand auf den Pin gelegt werden soll</string>
+    <string name="Answer4Q2">Es kann damit der Stromverbrauch angepasst werden</string><!-- Richtige Antwort 8-->
+    <string name="Answer1Q3">Damit gibt ST die Version des Produktes an</string>
+    <string name="Answer2Q3">Gibt die ST Prozessor Architektur an</string>
+    <string name="Answer3Q3">Gibt die ARM Prozessor Architektur an</string><!-- Richtige Antwort 11-->
+    <string name="Answer4Q3">Eine ST Spzifische Produktbezeichnung</string>
+    <string name="Answer1Q4">In der Dauerschleife den Pin-Status abfragen</string>
+    <string name="Answer2Q4">EXTI konfiguration für die LED</string>
+    <string name="Answer3Q4">EXTI konfiguration für den Tester</string><!-- Richtige Antwort 15-->
+    <string name="Answer4Q4">NVIC konfiguration für den Taster</string><!-- Richtige Antwort 16-->
+</resources>

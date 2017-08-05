@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_submit"
+        android:title="Submit"
+        android:icon="@drawable/upload1"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_view"
+        android:title="View"
+        android:icon="@drawable/view"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_updateEdit"
+        android:title="debug"
+        android:icon="@drawable/updateedit"
+        app:showAsAction="never"
+        />
+
+</menu>
